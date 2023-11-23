@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Welcome</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Welcome</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+      <section id="profile">
+        <div class="section__pic-container">
+          <img
+            id="pic__header"
+            src="./assets/profilePic2.jpg"
+            alt="profile picture"
+          />
+        </div>
+        <div class="section__text">
+          <p class="section__text__p1 header">Hello, I'm</p>
+          <h1 class="title name">Michael Kadimov</h1>
+          <p class="section__text__p2">FullStack Web Development Student</p>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/resume.pdf')"
+            >
+              Download CV
+            </button>
+            <button
+              class="btn btn-color-1"
+              onclick="location.href='./#contact'"
+            >
+              Contact Info
+            </button>
+          </div>
+          <div id="socials-container">
+<a href="https://www.linkedin.com/in/michael-kadimov-455907271" target="_blank">
+  <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" />
+</a>
+
+<a href="https://github.com/MichaelzXVI/" target="_blank">
+  <img src="./assets/github.png" alt="My Github profile" class="icon" />
+</a>
+          </div>
+
+      </section>
+    </div>
+    <div class="section">
+      <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <div class="section__pic-container">
+            <img
+              src="./assets/me2.png"
+              alt="Profile picture"
+              class="about-pic"
+            />
+          </div>
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img
+                  src="./assets/experience.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <h3>Experience</h3>
+                <p>Personal Projects</p>
+              </div>
+              <div class="details-container">
+                <img
+                  src="./assets/education.png"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h3>Education</h3>
+                <p>TESI - FullStack Certification</p><br />
+
+              </div>
+            </div>
+            <div class="text-container">
+              <p>
+Hey there! I'm  Michael Kadimov, but you can just call me 'Mickey' . At the age of 27, I'm on a wild adventure as a full-stack web development student at ICCP College, but most of the time learning technologies on udemy. <br><br>
+
+I started off on the Industrial Engineering BA train for almost 2 years, but then bam! COVID-19 threw the world into chaos, and my studies, financial situation got caught in the crossfire. So, I hit the pause button on my academic journey — But, if being honest? I always been a tech-guy when it narrowed down to technology and computer systems, so I guess it's for the best 🤷‍♂️. <br><br>
+
+Now, I'm fueled by a burning passion for web development, armed with nothing but my projects and a hunger to dive headfirst into the industry. No professional experience to brag about (yet!), but I'm on a mission to change that and soak up all the knowledge I can get my hands on! <br><br>Enough said, so hit me up and let's make some magic happen! ✨
+              </p>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+        />
+      </section>
+
+
+    </div>
+    <div class="section">
+      <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="experience-sub-title">Frontend Development</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>HTML</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>CSS</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>JavaScript</h3>
+                    <p>Advanced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>React</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                 <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  /><div>
+                    <h3>GitHub&nbsp;</h3>
+                    <p> Basic </p>
+                  </div>
+                </article>
+                <article>
+              </div>
+            </div>
+            <!-- <div class="details-container">
+              <h2 class="experience-sub-title">Frontend Development</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>PostgreSQL</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Node JS</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Express JS</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Git</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div> -->
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#projects'"
+        />
+      </section>
+    </div>
+    <div class="section">
+      <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/project-1.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Business Landing Page</h2>
+              <div class="icons__container--project">
+              <img src="./assets/responsive.png" class="icon" alt="">
+              <img src="./assets/html.png" class="icon" alt="" >
+              <img src="./assets/css-3.png" class="icon" alt="">
+            </div>
+                         <p>
+                          
+A web-design project showcases proficiency in HTML and CSS through the creation of a visually appealing and responsive website.</p><br>
+              <div class="btn-container">
+                <a href="http://github.com/MichaelzXVI/responsiveWebsite1"
+                target="_blank">                <button
+                  class="btn btn-color-2 project-btn"
+                >
+                  Github
+                </button></a>
+                <a href="http://michaelzxvi.github.io/responsiveWebsite1/" target="_blank">                <button
+                  class="btn btn-color-2 project-btn"
+                >
+                  Live Demo
+                </button></a>
+
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/project-2.png"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Busniess Landing Page II</h2>
+                            <div class="icons__container--project">
+              <img src="./assets/responsive.png" class="icon" alt="">
+              <img src="./assets/html.png" class="icon" alt="" >
+              <img src="./assets/css-3.png" class="icon" alt="">
+            </div>
+                                    <p> 
+                                      Another land-page-business as a part of my extensive HTML and CSS learning journey, this project serves as another component.</p><br>
+              <div class="btn-container">
+                      <a href="https://github.com/MichaelzXVI/ResponsiveWebsite2"
+                target="_blank">                <button
+                  class="btn btn-color-2 project-btn"
+                >
+                  Github
+                </button></a>
+                <a href="http://michaelzxvi.github.io/ResponsiveWebsite2/" target="_blank">                <button
+                  class="btn btn-color-2 project-btn"
+                >
+                  Live Demo
+                </button></a>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/project-3.jpg"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Country Information API</h2>
+                            <div class="icons__container--project">
+              <img src="./assets/responsive.png" class="icon" alt="">
+              <img src="./assets/html.png" class="icon" alt="" >
+              <img src="./assets/css-3.png" class="icon" alt="">
+              <img src="./assets/js.png" class="icon" alt="">
+            </div>
+                                    <p> Country information providving!  Showcasing abilities to work with APIs and go creative with JavaScript features.</p><br>
+              <div class="btn-container">
+                      <a href="https://github.com/MichaelzXVI/CountryInfoAPI"
+                target="_blank">                <button
+                  class="btn btn-color-2 project-btn"
+                >
+                  Github
+                </button></a>
+                <a href="https://michaelzxvi.github.io/CountryInfoAPI/" target="_blank">                <button
+                  class="btn btn-color-2 project-btn"
+                >
+                  Live Demo
+                </button></a>
+              </div>
+            </div>
+            <!-- <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/project-3.png"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Project Three</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Live Demo
+                </button>
+              </div> -->
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        />
+      </section>
+    </div>
+    <div class="section">
+      <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./assets/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:examplemail@gmail.com">michaelzxvi@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/discord.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:_">michaelzxvi#0487</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com/in/michael-kadimov-455907271" target="_blank">LinkedIn</a></p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="section">
+      <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <p>✌</p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
